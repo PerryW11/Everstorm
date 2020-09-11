@@ -1,0 +1,859 @@
+﻿Log file open, 09/11/20 00:22:08
+LogInit: Display: Running engine for game: Everstorm
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.080710
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2080 SUPER
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Engine.ini]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Engine.ini]
+[2020.09.11-04.22.09:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Engine.ini]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Engine.ini]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.11-04.22.09:473][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Engine.ini]
+[2020.09.11-04.22.09:473][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Engine.ini]
+[2020.09.11-04.22.09:477][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.11-04.22.09:477][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.11-04.22.09:478][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.11-04.22.09:478][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.11-04.22.09:478][  0]LogHAL: Display: Platform has ~ 16 GB [17082105856 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.11-04.22.09:478][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.11-04.22.09:478][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.11-04.22.09:478][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Scalability.ini]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.11-04.22.09:479][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Config/Windows/Engine.ini]
+[2020.09.11-04.22.09:479][  0]LogInit: Computer: DESKTOP-CT3Q2NE
+[2020.09.11-04.22.09:479][  0]LogInit: User: Mindl
+[2020.09.11-04.22.09:479][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.09.11-04.22.09:479][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.11-04.22.09:480][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.09.11-04.22.09:480][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.11-04.22.09:480][  0]LogMemory: Process Physical Memory: 117.73 MB used, 117.73 MB peak
+[2020.09.11-04.22.09:480][  0]LogMemory: Process Virtual Memory: 102.23 MB used, 102.23 MB peak
+[2020.09.11-04.22.09:480][  0]LogMemory: Physical Memory: 9954.17 MB used,  6336.60 MB free, 16290.77 MB total
+[2020.09.11-04.22.09:480][  0]LogMemory: Virtual Memory: 5192.57 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2020.09.11-04.22.09:486][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.11-04.22.09:511][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.11-04.22.09:512][  0]LogInit: Using OS detected language (en-US).
+[2020.09.11-04.22.09:512][  0]LogInit: Using OS detected locale (en-US).
+[2020.09.11-04.22.09:514][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.09.11-04.22.09:647][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.11-04.22.09:690][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.11-04.22.09:690][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.11-04.22.09:831][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.09.11-04.22.09:831][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.11-04.22.09:831][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.11-04.22.09:831][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.11-04.22.09:905][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 SUPER' (Feature Level 11_0)
+[2020.09.11-04.22.09:905][  0]LogD3D11RHI:       8010/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.09.11-04.22.09:906][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.11-04.22.09:906][  0]LogD3D11RHI:       0/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.11-04.22.09:906][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.11-04.22.09:915][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.11-04.22.09:915][  0]LogD3D11RHI:     GPU DeviceId: 0x1e81 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.11-04.22.09:915][  0]LogWindows: EnumDisplayDevices:
+[2020.09.11-04.22.09:915][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 SUPER' (P:1 D:1)
+[2020.09.11-04.22.09:915][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:1)
+[2020.09.11-04.22.09:915][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2020.09.11-04.22.09:916][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2020.09.11-04.22.09:916][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.09.11-04.22.09:916][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 SUPER
+[2020.09.11-04.22.09:916][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
+[2020.09.11-04.22.09:916][  0]LogD3D11RHI:      Driver Date: 4-3-2020
+[2020.09.11-04.22.09:916][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.09.11-04.22.09:958][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.11-04.22.09:960][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.11-04.22.09:960][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.11-04.22.09:960][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.11-04.22.09:985][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.11-04.22.10:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.11-04.22.10:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.11-04.22.10:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.11-04.22.10:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.11-04.22.10:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.11-04.22.10:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.11-04.22.10:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.11-04.22.10:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.11-04.22.10:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.11-04.22.10:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.11-04.22.10:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.11-04.22.10:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.11-04.22.10:236][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.11-04.22.10:244][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.11-04.22.10:251][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.11-04.22.10:259][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.11-04.22.10:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.11-04.22.10:273][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.11-04.22.10:281][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.11-04.22.10:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.11-04.22.10:309][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.11-04.22.10:309][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.11-04.22.10:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.11-04.22.10:321][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.11-04.22.10:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.11-04.22.10:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.11-04.22.10:343][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.11-04.22.10:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.11-04.22.10:350][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.11-04.22.10:356][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.11-04.22.10:400][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Intermediate/Shaders/WorkingDirectory/9036/).
+[2020.09.11-04.22.10:401][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Mindl/AppData/Local/Temp/UnrealShaderWorkingDir/51EDE23442873F4DD3DD36951A723AFE/'.
+[2020.09.11-04.22.10:401][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.11-04.22.10:401][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.11-04.22.10:401][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.11-04.22.11:064][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.11-04.22.11:119][  0]LogDerivedDataCache: Loaded boot cache 0.05s 107MB C:/Users/Mindl/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.11-04.22.11:119][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Mindl/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.11-04.22.11:119][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mindl/Documents/GitHub/Everstorm/Everstorm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.11-04.22.11:119][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.11-04.22.11:119][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Mindl/Documents/GitHub/Everstorm/Everstorm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.11-04.22.11:119][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.11-04.22.11:128][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.11-04.22.11:128][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.11-04.22.11:128][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.11-04.22.11:129][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mindl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.11-04.22.11:129][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.11-04.22.11:129][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.11-04.22.11:178][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.11-04.22.11:179][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.11-04.22.11:197][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2020.09.11-04.22.11:378][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.11-04.22.11:476][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.11-04.22.11:476][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.11-04.22.11:476][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.11-04.22.11:476][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.11-04.22.11:476][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.11-04.22.11:490][  0]LogNetVersion: Everstorm 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2770877112)
+[2020.09.11-04.22.11:829][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000022E98170640), frame # 0
+[2020.09.11-04.22.11:829][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022E999D6D40), frame # 0
+[2020.09.11-04.22.11:830][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022E99A0EC00), frame # 0
+[2020.09.11-04.22.11:872][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.037783 seconds
+[2020.09.11-04.22.11:876][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.11-04.22.11:876][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.11-04.22.11:876][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.11-04.22.12:136][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.11-04.22.12:139][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.11-04.22.12:200][  0]SourceControl: Source control is disabled
+[2020.09.11-04.22.12:200][  0]SourceControl: Source control is disabled
+[2020.09.11-04.22.12:203][  0]SourceControl: Source control is disabled
+[2020.09.11-04.22.12:205][  0]SourceControl: Source control is disabled
+[2020.09.11-04.22.12:210][  0]SourceControl: Source control is disabled
+[2020.09.11-04.22.12:394][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.11-04.22.12:409][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.11-04.22.12:409][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.11-04.22.12:449][  0]LogOcInput: OculusInput pre-init called
+[2020.09.11-04.22.12:645][  0]LogEngine: Initializing Engine...
+[2020.09.11-04.22.12:694][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.09.11-04.22.12:694][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.11-04.22.12:695][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.11-04.22.12:798][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.11-04.22.12:804][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.11-04.22.12:804][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022E9428FC00), frame # 0
+[2020.09.11-04.22.12:804][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022E9429BB00), frame # 0
+[2020.09.11-04.22.12:817][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.11-04.22.12:817][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.11-04.22.12:817][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.11-04.22.12:817][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.11-04.22.12:817][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.11-04.22.12:817][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.11-04.22.12:817][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.11-04.22.12:817][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.11-04.22.12:818][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.11-04.22.12:818][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.11-04.22.12:832][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.11-04.22.12:832][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.11-04.22.12:889][  0]LogAudioMixer: Display: Using Audio Device HyperX Cloud Headphones (Realtek High Definition Audio)
+[2020.09.11-04.22.12:891][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.11-04.22.12:893][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.11-04.22.12:893][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.11-04.22.12:893][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.11-04.22.12:894][  0]LogInit: FAudioDevice initialized.
+[2020.09.11-04.22.12:894][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.11-04.22.12:943][  0]LogDerivedDataCache: Saved boot cache 0.05s 107MB C:/Users/Mindl/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.11-04.22.12:947][  0]LogInit: Texture streaming: Enabled
+[2020.09.11-04.22.12:958][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.11-04.22.12:958][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.11-04.22.12:959][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.11-04.22.13:011][  0]LogInit: Transaction tracking system initialized
+[2020.09.11-04.22.13:027][  0]BlueprintLog: New page: Editor Load
+[2020.09.11-04.22.13:083][  0]LocalizationService: Localization service is disabled
+[2020.09.11-04.22.13:210][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.11-04.22.13:210][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.11-04.22.13:312][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Content/' took 0.01s
+[2020.09.11-04.22.13:477][  0]SourceControl: Source control is disabled
+[2020.09.11-04.22.13:477][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.578
+[2020.09.11-04.22.13:477][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Content/LordAido/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.11-04.22.13:477][  0]LightingResults: New page: Lighting Build
+[2020.09.11-04.22.13:477][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.11-04.22.13:478][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.11-04.22.13:478][  0]MapCheck: New page: Map Check
+[2020.09.11-04.22.13:478][  0]LightingResults: New page: Lighting Build
+[2020.09.11-04.22.13:487][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022E9428FC00), frame # 0
+[2020.09.11-04.22.13:487][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022E9429BB00), frame # 0
+[2020.09.11-04.22.13:488][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.09.11-04.22.15:270][  0]LogAIModule: Creating AISystem for world Level1
+[2020.09.11-04.22.15:270][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022E8845BA00), frame # 0
+[2020.09.11-04.22.15:270][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022E87B26200), frame # 0
+[2020.09.11-04.22.15:309][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.11-04.22.15:325][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.09.11-04.22.15:325][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.11-04.22.15:325][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.117ms to complete.
+[2020.09.11-04.22.15:325][  0]LogFileHelpers: Loading map 'Level1' took 1.849
+[2020.09.11-04.22.15:327][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.428
+[2020.09.11-04.22.15:516][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-04.22.15:523][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-04.22.15:528][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-04.22.15:534][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.11-04.22.15:549][  0]LogCollectionManager: Loaded 0 collections in 0.001203 seconds
+[2020.09.11-04.22.15:588][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Saved/Collections/' took 0.00s
+[2020.09.11-04.22.15:588][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Content/Developers/Mindl/Collections/' took 0.00s
+[2020.09.11-04.22.15:588][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Mindl/Documents/GitHub/Everstorm/Everstorm/Content/Collections/' took 0.00s
+[2020.09.11-04.22.15:588][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 3426 classes and 820 folders.
+[2020.09.11-04.22.15:597][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.11-04.22.15:918][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.11-04.22.15:930][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.09.11-04.22.16:001][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.11-04.22.16:003][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.11-04.22.16:014][  0]LogSlate: Took 0.005343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.11-04.22.16:144][  0]LogRenderer: Reallocating scene render targets to support 1120x668 Format 10 NumSamples 1 (Frame:1).
+[2020.09.11-04.22.16:267][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.09.11-04.22.16:267][  0]LogLoad: (Engine Initialization) Total time: 8.37 seconds
+[2020.09.11-04.22.16:267][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.11-04.22.16:315][  0]LogAssetRegistry: Asset discovery search completed in 5.1192 seconds
+[2020.09.11-04.22.16:318][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.09.11-04.22.16:322][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.11-04.22.16:359][  0]LogSlate: Took 0.005297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.11-04.22.17:302][101]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.11-04.24.15:411][709]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.09.11-04.24.20:123][709]LogTexture: Display: Building textures: T_CliffRockTile_03_D (AutoDXT, 2048X2048)
+[2020.09.11-04.24.20:123][709]LogTexture: Display: Building textures: T_CliffRock_03_N (BC5, 4096X4096)
+[2020.09.11-04.24.20:123][709]LogTexture: Display: Building textures: T_Cliff01_N (BC5, 8192X8192)
+[2020.09.11-04.24.20:123][709]LogTexture: Display: Building textures: T_Cliff01_D_CC_R (AutoDXT, 8192X8192)
+[2020.09.11-04.24.43:321][709]LogMaterial: Display: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2020.09.11-04.24.43:479][709]LogMaterial: Display: Missing cached shader map for material M_Photoscan_Master, compiling. 
+[2020.09.11-04.24.43:842][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 156
+[2020.09.11-04.24.43:842][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 146
+[2020.09.11-04.24.43:842][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 136
+[2020.09.11-04.24.43:842][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 126
+[2020.09.11-04.24.43:842][709]LogStaticMesh: Building static mesh SM_Cliff01...
+[2020.09.11-04.24.44:190][709]LogStaticMesh: Built static mesh [0.35s] /Game/KiteDemo/Environments/Cliffs/Cliff01/SM_Cliff01.SM_Cliff01
+[2020.09.11-04.24.46:580][709]LogTexture: Display: Building textures: BogMyrtle_01_Atlas_Billboards_Tex (AutoDXT, 2048X2048)
+[2020.09.11-04.24.46:580][709]LogTexture: Display: Building textures: BogMyrtle_01_Atlas_Billboards_Normal_Tex (BC5, 2048X2048)
+[2020.09.11-04.24.46:580][709]LogTexture: Display: Building textures: BogMyrtleBush_01_Atlas_Billboards_Normal_Tex (BC5, 2048X2048)
+[2020.09.11-04.24.46:580][709]LogTexture: Display: Building textures: T_BogMyrtleBtm_01_D (AutoDXT, 4096X4096)
+[2020.09.11-04.24.46:580][709]LogTexture: Display: Building textures: BogMyrtle_01_Atlas_Tex (AutoDXT, 4096X4096)
+[2020.09.11-04.24.46:580][709]LogTexture: Display: Building textures: T_BogMyrtleBtm_01_N (BC5, 4096X4096)
+[2020.09.11-04.24.46:580][709]LogTexture: Display: Building textures: BogMyrtleBush_01_Atlas_Billboards_Tex (AutoDXT, 2048X2048)
+[2020.09.11-04.24.46:580][709]LogTexture: Display: Building textures: BogMyrtle_01_Atlas_Normal_Tex (BC5, 4096X4096)
+[2020.09.11-04.24.46:580][709]LogMaterial: Display: Missing cached shader map for material BogMyrtle_01_Billboard_Mat, compiling. 
+[2020.09.11-04.24.48:056][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 382
+[2020.09.11-04.24.48:056][709]LogMaterial: Display: Missing cached shader map for material BogMyrtle_01_Fronds_Mat, compiling. 
+[2020.09.11-04.24.48:125][709]LogStaticMesh: Building static mesh BogMyrtleBush_01...
+[2020.09.11-04.24.48:824][709]LogStaticMesh: Built static mesh [0.70s] /Game/KiteDemo/Environments/Foliage/BogMyrtleBush_01/BogMyrtleBush_01.BogMyrtleBush_01
+[2020.09.11-04.24.49:701][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 482
+[2020.09.11-04.24.49:701][709]LogTexture: Display: Building textures: BogMyrtleBush_02_Atlas_Billboards_Tex (AutoDXT, 2048X2048)
+[2020.09.11-04.24.49:701][709]LogTexture: Display: Building textures: BogMyrtleBush_02_Atlas_Billboards_Normal_Tex (BC5, 2048X2048)
+[2020.09.11-04.24.49:701][709]LogStaticMesh: Building static mesh BogMyrtleBush_02...
+[2020.09.11-04.24.51:073][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 472
+[2020.09.11-04.24.51:073][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 462
+[2020.09.11-04.24.51:073][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 452
+[2020.09.11-04.24.51:073][709]LogStaticMesh: Built static mesh [1.37s] /Game/KiteDemo/Environments/Foliage/BogMyrtleBush_02/BogMyrtleBush_02.BogMyrtleBush_02
+[2020.09.11-04.24.51:109][709]LogStaticMesh: Building static mesh BogMyrtle_01...
+[2020.09.11-04.24.51:615][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 442
+[2020.09.11-04.24.51:615][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 432
+[2020.09.11-04.24.51:615][709]LogStaticMesh: Built static mesh [0.51s] /Game/KiteDemo/Environments/Foliage/BogMyrtle_01/BogMyrtle_01.BogMyrtle_01
+[2020.09.11-04.24.52:504][709]LogTexture: Display: Building textures: T_Water_Screen_Noise_Soft2 (AutoDXT, 1024X1024)
+[2020.09.11-04.24.52:504][709]LogTexture: Display: Building textures: T_Ice_Noise_N (BC5, 1024X1024)
+[2020.09.11-04.24.52:504][709]LogTexture: Display: Building textures: T_Fern_01_N (BC5, 2048X2048)
+[2020.09.11-04.24.52:504][709]LogTexture: Display: Building textures: T_Fern_01_D (AutoDXT, 2048X2048)
+[2020.09.11-04.24.52:504][709]LogTexture: Display: Building textures: T_TilingNoise06_N (BC5, 2048X2048)
+[2020.09.11-04.24.52:504][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 422
+[2020.09.11-04.24.52:504][709]LogMaterial: Display: Missing cached shader map for material M_Fern_01, compiling. 
+[2020.09.11-04.24.52:686][709]LogTexture: Display: Building textures: T_Water_Screen_Noise_Soft (AutoDXT, 1024X1024)
+[2020.09.11-04.24.52:686][709]LogMaterial: Display: Missing cached shader map for material M_Fern_01, compiling. 
+[2020.09.11-04.24.52:742][709]LogStaticMesh: Building static mesh SM_Fern_01...
+[2020.09.11-04.24.52:912][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 632
+[2020.09.11-04.24.52:912][709]LogStaticMesh: Built static mesh [0.17s] /Game/KiteDemo/Environments/Foliage/Ferns/SM_Fern_01.SM_Fern_01
+[2020.09.11-04.24.52:939][709]LogStaticMesh: Building static mesh SM_Fern_02...
+[2020.09.11-04.24.53:113][709]LogStaticMesh: Built static mesh [0.17s] /Game/KiteDemo/Environments/Foliage/Ferns/SM_Fern_02.SM_Fern_02
+[2020.09.11-04.24.53:134][709]LogStaticMesh: Building static mesh SM_Fern_03...
+[2020.09.11-04.24.53:303][709]LogStaticMesh: Built static mesh [0.17s] /Game/KiteDemo/Environments/Foliage/Ferns/SM_Fern_03.SM_Fern_03
+[2020.09.11-04.24.53:777][709]LogTexture: Display: Building textures: T_SwirlNoise (G8, 512X512)
+[2020.09.11-04.24.53:777][709]LogTexture: Display: Building textures: T_Buttercup_Patch_01_M (AutoDXT, 2048X2048)
+[2020.09.11-04.24.53:777][709]LogTexture: Display: Building textures: T_Buttercup_Patch_01_D (AutoDXT, 2048X2048)
+[2020.09.11-04.24.53:777][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 622
+[2020.09.11-04.24.53:777][709]LogMaterial: Display: Missing cached shader map for material M_Buttercup_Patch_01, compiling. 
+[2020.09.11-04.24.53:821][709]LogMaterial: Display: Missing cached shader map for material M_Buttercup_Patch_01, compiling. 
+[2020.09.11-04.24.53:867][709]LogStaticMesh: Building static mesh SM_Buttercup_Patch_01...
+[2020.09.11-04.24.54:052][709]LogStaticMesh: Built static mesh [0.19s] /Game/KiteDemo/Environments/Foliage/Flowers/Buttercup/SM_Buttercup_Patch_01.SM_Buttercup_Patch_01
+[2020.09.11-04.24.55:303][709]LogTexture: Display: Building textures: T_FieldScabious01_M (AutoDXT, 2048X2048)
+[2020.09.11-04.24.55:303][709]LogTexture: Display: Building textures: T_FieldScabious01_D (AutoDXT, 2048X2048)
+[2020.09.11-04.24.55:303][709]LogTexture: Display: Building textures: T_FieldScabious01_N (BC5, 2048X2048)
+[2020.09.11-04.24.55:303][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 832
+[2020.09.11-04.24.55:303][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 822
+[2020.09.11-04.24.55:303][709]LogMaterial: Display: Missing cached shader map for material M_FieldScabious_01, compiling. 
+[2020.09.11-04.24.55:350][709]LogMaterial: Display: Missing cached shader map for material M_FieldScabious_01, compiling. 
+[2020.09.11-04.24.55:411][709]LogStaticMesh: Building static mesh SM_FieldScabious_01...
+[2020.09.11-04.24.55:754][709]LogStaticMesh: Built static mesh [0.34s] /Game/KiteDemo/Environments/Foliage/Flowers/FieldScabious/SM_FieldScabious_01.SM_FieldScabious_01
+[2020.09.11-04.24.56:810][709]LogTexture: Display: Building textures: T_HeatherBranch4_Mask2 (AutoDXT, 1024X1024)
+[2020.09.11-04.24.56:810][709]LogTexture: Display: Building textures: T_Ice_Noise (AutoDXT, 1024X1024)
+[2020.09.11-04.24.56:810][709]LogTexture: Display: Building textures: T_HeatherBranch4_D (AutoDXT, 2048X2048)
+[2020.09.11-04.24.56:810][709]LogTexture: Display: Building textures: T_HeatherBranch4_N (BC5, 2048X2048)
+[2020.09.11-04.24.56:810][709]LogMaterial: Display: Missing cached shader map for material M_HeatherNew_Master, compiling. 
+[2020.09.11-04.24.58:350][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1142
+[2020.09.11-04.24.58:350][709]LogTexture: Display: Building textures: T_Grass_Blobby_Height_01 (AutoDXT, 2048X2048)
+[2020.09.11-04.24.58:350][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1132
+[2020.09.11-04.24.58:350][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1122
+[2020.09.11-04.24.58:350][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1112
+[2020.09.11-04.24.58:350][709]LogMaterial: Display: Missing cached shader map for material M_HeatherNew_MasterWorldColorVarience, compiling. 
+[2020.09.11-04.24.58:514][709]LogTexture: Display: Building textures: T_GDC_TilingRocks_01_DispMask (AutoDXT, 1024X1024)
+[2020.09.11-04.24.58:514][709]LogMaterial: Display: Missing cached shader map for material M_HeatherNew_Master, compiling. 
+[2020.09.11-04.24.58:557][709]LogMaterial: Display: Missing cached shader map for material M_HeatherNew_MasterWorldColorVarience, compiling. 
+[2020.09.11-04.24.58:599][709]LogMaterial: Display: Missing cached shader map for material M_HeatherNew_MasterWorldColorVarience, compiling. 
+[2020.09.11-04.24.58:646][709]LogStaticMesh: Building static mesh SM_Heather_Mesh_Clumps2...
+[2020.09.11-04.24.58:690][709]LogStaticMesh: Built static mesh [0.04s] /Game/KiteDemo/Environments/Foliage/Flowers/Heather/SM_Heather_Mesh_Clumps2.SM_Heather_Mesh_Clumps2
+[2020.09.11-04.24.58:695][709]LogStaticMesh: Building static mesh SM_Heather_Mesh_Clumps2_WorldPopulate...
+[2020.09.11-04.24.58:829][709]LogStaticMesh: Built static mesh [0.13s] /Game/KiteDemo/Environments/Foliage/Flowers/Heather/SM_Heather_Mesh_Clumps2_WorldPopulate.SM_Heather_Mesh_Clumps2_WorldPopulate
+[2020.09.11-04.25.00:139][709]LogTexture: Display: Building textures: T_Yarrow_N (BC5, 2048X2048)
+[2020.09.11-04.25.00:139][709]LogTexture: Display: Building textures: T_Yarrow_D (AutoDXT, 2048X2048)
+[2020.09.11-04.25.00:139][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1542
+[2020.09.11-04.25.00:139][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1532
+[2020.09.11-04.25.00:139][709]LogMaterial: Display: Missing cached shader map for material M_HeatherNew_Master, compiling. 
+[2020.09.11-04.25.00:375][709]LogTexture: Display: Building textures: T_Yarrow_M (AutoDXT, 2048X2048)
+[2020.09.11-04.25.00:375][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1632
+[2020.09.11-04.25.00:375][709]LogStaticMesh: Building static mesh SM_Yarrow...
+[2020.09.11-04.25.00:729][709]LogStaticMesh: Built static mesh [0.35s] /Game/KiteDemo/Environments/Foliage/Flowers/Yarrow/SM_Yarrow.SM_Yarrow
+[2020.09.11-04.25.00:763][709]LogStaticMesh: Building static mesh SM_Yarrow3...
+[2020.09.11-04.25.01:103][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1622
+[2020.09.11-04.25.01:103][709]LogStaticMesh: Built static mesh [0.34s] /Game/KiteDemo/Environments/Foliage/Flowers/Yarrow/SM_Yarrow3.SM_Yarrow3
+[2020.09.11-04.25.01:621][709]LogTexture: Display: Building textures: T_FieldGrass_01_D (AutoDXT, 1024X1024)
+[2020.09.11-04.25.01:621][709]LogTexture: Display: Building textures: T_FieldGrass_02_M (AutoDXT, 1024X1024)
+[2020.09.11-04.25.01:621][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1612
+[2020.09.11-04.25.01:621][709]LogMaterial: Display: Missing cached shader map for material M_FieldGrass_01, compiling. 
+[2020.09.11-04.25.01:663][709]LogMaterial: Display: Missing cached shader map for material M_FieldGrass_01, compiling. 
+[2020.09.11-04.25.01:707][709]LogMaterial: Display: Missing cached shader map for material M_FieldGrass_01, compiling. 
+[2020.09.11-04.25.01:755][709]LogStaticMesh: Building static mesh SM_FieldGrass_01...
+[2020.09.11-04.25.01:824][709]LogStaticMesh: Built static mesh [0.07s] /Game/KiteDemo/Environments/Foliage/Grass/FieldGrass/SM_FieldGrass_01.SM_FieldGrass_01
+[2020.09.11-04.25.08:959][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1932
+[2020.09.11-04.25.08:959][709]LogTexture: Display: Building textures: T_DeadLeavesAtlas_01_N (BC5, 4096X4096)
+[2020.09.11-04.25.08:959][709]LogTexture: Display: Building textures: T_DeadLeavesAtlasTop_01_D (AutoDXT, 4096X4096)
+[2020.09.11-04.25.08:959][709]LogTexture: Display: Building textures: T_DeadLeavesAtlas_01_D (AutoDXT, 4096X4096)
+[2020.09.11-04.25.08:959][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1922
+[2020.09.11-04.25.08:959][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1912
+[2020.09.11-04.25.08:959][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1902
+[2020.09.11-04.25.08:959][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1892
+[2020.09.11-04.25.08:959][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1882
+[2020.09.11-04.25.08:959][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1872
+[2020.09.11-04.25.08:959][709]LogMaterial: Display: Missing cached shader map for material M_DeadLeaves, compiling. 
+[2020.09.11-04.25.09:044][709]LogStaticMesh: Building static mesh SM_DeadLeaves...
+[2020.09.11-04.25.09:356][709]LogStaticMesh: Built static mesh [0.31s] /Game/KiteDemo/Environments/Foliage/Leaves/SM_DeadLeaves.SM_DeadLeaves
+[2020.09.11-04.25.09:382][709]LogStaticMesh: Building static mesh SM_DeadLeaves_Flat...
+[2020.09.11-04.25.09:686][709]LogStaticMesh: Built static mesh [0.30s] /Game/KiteDemo/Environments/Foliage/Leaves/SM_DeadLeaves_Flat.SM_DeadLeaves_Flat
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1972
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1962
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1952
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1942
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1932
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1922
+[2020.09.11-04.25.21:476][709]LogTexture: Display: Building textures: T_AlpinePatch001_N (BC5, 8192X8192)
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1912
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1902
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1892
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1882
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1872
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1862
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1852
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1842
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1832
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1822
+[2020.09.11-04.25.21:476][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1812
+[2020.09.11-04.25.21:476][709]LogTexture: Display: Building textures: T_AlpinePatch001_D_R (AutoDXT, 8192X8192)
+[2020.09.11-04.25.53:355][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1802
+[2020.09.11-04.25.53:355][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1792
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1782
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1772
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1762
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1752
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1742
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1732
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1722
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1712
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1702
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1692
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1682
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1672
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1662
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1652
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1642
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1632
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1622
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1612
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1602
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1592
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1582
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1572
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1562
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1552
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1542
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1532
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1522
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1512
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1502
+[2020.09.11-04.25.53:356][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1492
+[2020.09.11-04.25.53:356][709]LogTexture: Display: Building textures: T_AlpinePatch001_D_alt_R (AutoDXT, 8192X8192)
+[2020.09.11-04.26.22:802][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1482
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1472
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1462
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1452
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1442
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1432
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1422
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1412
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1402
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1392
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1382
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1372
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1362
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1352
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1342
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1332
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1322
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1312
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1302
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1292
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1282
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1272
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1262
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1252
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1242
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1232
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1222
+[2020.09.11-04.26.22:803][709]LogTexture: Display: Building textures: T_Forest_Path_001A_N (BC5, 4096X4096)
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1212
+[2020.09.11-04.26.22:803][709]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1202
+[2020.09.11-04.26.22:803][709]LogTexture: Display: Building textures: T_Forest_Path_001A_D_R (AutoDXT, 4096X4096)

@@ -14,7 +14,7 @@ Aido is equipped with a tri-burst laser rifle, impulse bomb launcher, and armor 
 
 Primary: Tri-burst laser rifle - each shot does 20 damage, magazine capacity of 15.
 
-Secondary: Impulse bomb - does 100 damage, 8 second cooldown
+Secondary: Impulse bomb - does 100 damage, 5 second cooldown
 
 Utility: Sprint - unlimited, jump (every character will be able to jump)
 

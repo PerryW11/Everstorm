@@ -16,7 +16,15 @@ Primary: Tri-burst laser rifle - each shot does 20 damage, magazine capacity of 
 
 Secondary: Impulse bomb - does 100 damage, 8 second cooldown
 
-Utility: Sprint - unlimited, jump (every character will be able to jump)
+Utility: Sprint - unlimited
+
+COMING NEXT: Kalonymus, demon warrior from the hell clan Ulphram, sent to eradicate all souls that escaped hell and those who stand in his way.
+
+Primary: Searing Flame - closest target within cone spread receives a fire implosion, taking 30 initial damage, and 18 burning damage every second - 2 second cooldown
+
+Secondary: Fiery Visage - spawn a flame portal that locks onto nearby enemies and fire rays of flame at them, burning them for 5 damage every half second - 12 second cooldown
+
+Utility: Deadlock - swaps locations with an enemy and leaves the mark of Ulphram, draining health on those who stand on it, dealing 5 damage a second and healing Kalonymus for 5
 
 # Objectives
 

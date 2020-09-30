@@ -2,7 +2,7 @@
 
 # What is Everstorm?
 
-As my current work in progress, Everstorm is a first person shooter with characters that possess different abilities. 
+As my current work in progress, Everstorm is a first person shooter with characters that possess different abilities. It currently contains a quest system, zombie AI, a fully functional character, and more. This is a work in progress, but one I work on nearly every day. Thanks for stopping by!
 
 # Characters
 
@@ -32,7 +32,9 @@ Utility: Deadlock - swaps locations with an enemy and leaves the mark of Ulphram
 
 The player will be a given a task to complete depending on the various levels. Dying will result in failure.
 
-FIRST LEVEL: The player must eliminate all zombies and get to the bridge.
+FIRST QUEST: Collect all the crystals and return them to Targoroth (NPC in game)
+
+SECOND QUEST: Eliminate all zombies in the area
 
 This project is being made with the Unreal Engine using C++ and blueprints.
 

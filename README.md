@@ -2,6 +2,8 @@
 
 # What is Everstorm?
 
+![EverstormPic](https://i.imgur.com/7blMnpw.png)
+
 As my current work in progress, Everstorm is a first person shooter with characters that possess different abilities. It currently contains a quest system, zombie AI, a fully functional character, and more. This is a work in progress, but one I work on nearly every day. Thanks for stopping by!
 
 # Characters
@@ -30,7 +32,9 @@ Utility: Deadlock - swaps locations with an enemy and leaves the mark of Ulphram
 
 # Objectives
 
-The player will be a given a task to complete depending on the various levels. Dying will result in failure.
+The player will be a given a quest depending on the context. This quest system was built from scratch. 
+
+![EverstormPic](https://i.imgur.com/00nYGKj.png)
 
 FIRST QUEST: Collect all the crystals and return them to Targoroth (NPC in game)
 

@@ -40,7 +40,7 @@ The player will be a given a quest depending on the context. This quest system w
 
 FIRST QUEST: Collect all the crystals and return them to Targoroth (NPC in game)
 
-SECOND QUEST: Eliminate all zombies in the area
+SECOND QUEST: Eliminate all zombies in the area (when 15 zombies or less remain, see them through walls, helps when they are harder to find)
 
 This project is being made with the Unreal Engine using C++ and blueprints.
 

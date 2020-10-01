@@ -20,6 +20,8 @@ Secondary: Impulse bomb - does 100 damage, 8 second cooldown
 
 Utility: Sprint - unlimited
 
+![EverstormPic](https://i.imgur.com/KdiNLmF.png)
+
 ## COMING NEXT
 
 Kalonymus, demon warrior from the hell clan Ulphram, sent to eradicate all souls that escaped hell and those who stand in his way.

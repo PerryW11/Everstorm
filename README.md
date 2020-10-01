@@ -1,6 +1,5 @@
 # Everstorm
 
-# What is Everstorm?
 
 ![EverstormPic](https://i.imgur.com/7blMnpw.png)
 

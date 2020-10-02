@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeEverstorm_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x603A61BE,
-				0x0A655F94,
+				0x776C1EAE,
+				0xEC91E992,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

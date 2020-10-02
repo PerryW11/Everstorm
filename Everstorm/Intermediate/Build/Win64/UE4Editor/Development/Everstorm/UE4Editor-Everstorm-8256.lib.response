@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Everstorm-8256.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Mindl\Documents\GitHub\Everstorm\Everstorm\Intermediate\Build\Win64\EverstormEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Mindl\Documents\GitHub\Everstorm\Everstorm\Intermediate\Build\Win64\UE4Editor\Development\Everstorm\Everstorm.cpp.obj"
+"C:\Users\Mindl\Documents\GitHub\Everstorm\Everstorm\Intermediate\Build\Win64\UE4Editor\Development\Everstorm\Kalo.cpp.obj"
+"C:\Users\Mindl\Documents\GitHub\Everstorm\Everstorm\Intermediate\Build\Win64\UE4Editor\Development\Everstorm\Everstorm.init.gen.cpp.obj"
+"C:\Users\Mindl\Documents\GitHub\Everstorm\Everstorm\Intermediate\Build\Win64\UE4Editor\Development\Everstorm\Kalo.gen.cpp.obj"
+"C:\Users\Mindl\Documents\GitHub\Everstorm\Everstorm\Intermediate\Build\Win64\UE4Editor\Development\Everstorm\Default.rc2.res"
+/OUT:"C:\Users\Mindl\Documents\GitHub\Everstorm\Everstorm\Intermediate\Build\Win64\UE4Editor\Development\Everstorm\UE4Editor-Everstorm-8256.lib"
+/INCLUDE:IMPLEMENT_MODULE_Everstorm

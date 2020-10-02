@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Everstorm.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{280A493A-0F9E-4160-B615-F6B9BBB6B28D}</UniqueIdentifier>
+      <UniqueIdentifier>{EFB0B62A-92F6-41F5-A35D-6E19FE33D994}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Everstorm.Target.cs">
       <Filter>Source</Filter>
@@ -12,10 +12,8 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.gitattributes" />
-    <None Include="..\..\GothicIsland_4_25.png" />
-    <None Include="..\..\Wooden_Town_V3_4_25.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{CE15AF3D-D4BA-49DF-8EE6-5EF2990B7B76}</UniqueIdentifier>
+      <UniqueIdentifier>{AA9C9EA9-DF78-45C3-AE11-8585DC1D0175}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +31,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Everstorm">
-      <UniqueIdentifier>{1804ECB2-2028-4E71-9DC2-8F2897FDB129}</UniqueIdentifier>
+      <UniqueIdentifier>{97BD235C-0B72-47CC-872D-C44158C14931}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Everstorm\Everstorm.Build.cs">
       <Filter>Source\Everstorm</Filter>
@@ -44,10 +42,10 @@
     <ClInclude Include="..\..\Source\Everstorm\Everstorm.h">
       <Filter>Source\Everstorm</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Everstorm\Kalonymus.cpp">
+    <ClCompile Include="..\..\Source\Everstorm\Kalo.cpp">
       <Filter>Source\Everstorm</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Everstorm\Kalonymus.h">
+    <ClInclude Include="..\..\Source\Everstorm\Kalo.h">
       <Filter>Source\Everstorm</Filter>
     </ClInclude>
   </ItemGroup>

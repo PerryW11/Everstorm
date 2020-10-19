@@ -5,7 +5,7 @@
 #include "Components/InputComponent.h"
 #include "GameFramework/Controller.h"
 #include "Camera/CameraComponent.h"
-#include "Components/SkeletalMeshComponent.h""
+#include "Components/SkeletalMeshComponent.h"
 
 
 // Sets default values
@@ -13,15 +13,13 @@ AKalo::AKalo()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-	SkelMeshComp = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("PlayerMesh"));
-	SkelMeshComp->SetupAttachment(RootComponent);
-
-	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("CameraComp"));
-	CameraComp->SetupAttachment(SkelMeshComp);
 	
+	// Basic movement input speeds
 	BaseTurnRate = 45.0f;
 	BaseLookUpAtRate = 45.0f;
+
+	// Setting up initial cooldown for primary ability
+	primaryCooldown = 2.0f;
 
 
 }
@@ -30,7 +28,7 @@ AKalo::AKalo()
 void AKalo::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 void AKalo::MoveForward(float value)
@@ -38,22 +36,33 @@ void AKalo::MoveForward(float value)
 	if (Controller && value != 0.0f)
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		AddMovementInput(Direction, value);
 	}
 }
 
 void AKalo::MoveRight(float value)
 {
+	if (Controller && value != 0.0f)
+	{
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
 
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		AddMovementInput(Direction, value);
+	}
 }
 
 void AKalo::TurnAtRate(float value)
 {
-
+	AddControllerYawInput(value * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
 
 void AKalo::LookUpAtRate(float value)
 {
-
+	AddControllerPitchInput(value * BaseLookUpAtRate * GetWorld()->GetDeltaSeconds());
 }
 
 // Called every frame
@@ -77,7 +86,7 @@ void AKalo::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("Lookup", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("TurnRate", this, &AKalo::TurnAtRate);
-	PlayerInputComponent->BindAxis("LookupRate", this, &AKalo::LookUpAtRate);
+	PlayerInputComponent->BindAxis("LookUpRate", this, &AKalo::LookUpAtRate);
 
 }
 

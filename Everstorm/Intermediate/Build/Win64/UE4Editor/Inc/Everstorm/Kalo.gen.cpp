@@ -31,6 +31,19 @@ void EmptyLinkFunctionForGeneratedCodeKalo() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpAtRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseLookUpAtRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_primaryCooldown_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_primaryCooldown;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +58,32 @@ void EmptyLinkFunctionForGeneratedCodeKalo() {}
 		{ "ModuleRelativePath", "Kalo.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AKalo_Statics::NewProp_BaseLookUpAtRate_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "ModuleRelativePath", "Kalo.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AKalo_Statics::NewProp_BaseLookUpAtRate = { "BaseLookUpAtRate", nullptr, (EPropertyFlags)0x0020080000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AKalo, BaseLookUpAtRate), METADATA_PARAMS(Z_Construct_UClass_AKalo_Statics::NewProp_BaseLookUpAtRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AKalo_Statics::NewProp_BaseLookUpAtRate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AKalo_Statics::NewProp_BaseTurnRate_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "ModuleRelativePath", "Kalo.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AKalo_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0020080000000015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AKalo, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AKalo_Statics::NewProp_BaseTurnRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AKalo_Statics::NewProp_BaseTurnRate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AKalo_Statics::NewProp_primaryCooldown_MetaData[] = {
+		{ "Category", "Abilities" },
+		{ "ModuleRelativePath", "Kalo.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AKalo_Statics::NewProp_primaryCooldown = { "primaryCooldown", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AKalo, primaryCooldown), METADATA_PARAMS(Z_Construct_UClass_AKalo_Statics::NewProp_primaryCooldown_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AKalo_Statics::NewProp_primaryCooldown_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AKalo_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKalo_Statics::NewProp_BaseLookUpAtRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKalo_Statics::NewProp_BaseTurnRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AKalo_Statics::NewProp_primaryCooldown,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AKalo_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AKalo>::IsAbstract,
 	};
@@ -54,11 +93,11 @@ void EmptyLinkFunctionForGeneratedCodeKalo() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AKalo_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AKalo_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AKalo_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AKalo_Statics::Class_MetaDataParams))
@@ -72,7 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeKalo() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AKalo, 2646717094);
+	IMPLEMENT_CLASS(AKalo, 1356832744);
 	template<> EVERSTORM_API UClass* StaticClass<AKalo>()
 	{
 		return AKalo::StaticClass();

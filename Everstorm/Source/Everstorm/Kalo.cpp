@@ -29,6 +29,10 @@ void AKalo::BeginPlay()
 {
 	Super::BeginPlay();
 
+	FName HeadSocket = TEXT("Head");
+
+
+
 }
 
 void AKalo::MoveForward(float value)

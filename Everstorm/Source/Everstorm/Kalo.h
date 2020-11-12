@@ -7,7 +7,6 @@
 #include "Kalo.generated.h"
 
 
-class UCameraComponent;
 class USkeletalMeshComponent;
 
 UCLASS()
@@ -36,8 +35,11 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Camera")
 	float BaseTurnRate;
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Camera")
 	float BaseLookUpAtRate;
+
+	
 
 public:	
 	// Called every frame

@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Components/CapsuleComponent.h"
 #include "Kalo.generated.h"
 
 
@@ -18,20 +19,22 @@ public:
 	// Sets default values for this character's properties
 	AKalo();
 
-	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Abilities")
+	UCapsuleComponent* CapsuleComp;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	void MoveForward(float value);
-	void MoveRight(float value);
-	void TurnAtRate(float value);
-	void LookUpAtRate(float value);
+	void MoveForward(float Value);
+	void MoveRight(float Value);
+	void TurnAtRate(float Value);
+	void LookUpAtRate(float Value);
+
+	void PrimaryFire();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Abilities")
-	float primaryCooldown;
-
+	float PrimaryCooldown;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Camera")
 	float BaseTurnRate;
@@ -47,6 +50,9 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	UPROPERTY(EditAnywhere, Category = "Trace")
+	float TraceDistance = 1000.0f;
 
 
 private:

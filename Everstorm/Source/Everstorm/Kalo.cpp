@@ -2,10 +2,10 @@
 
 
 #include "Kalo.h"
+#include "DrawDebugHelpers.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/Controller.h"
 #include "Camera/CameraComponent.h"
-#include "Components/SkeletalMeshComponent.h"
 
 
 // Sets default values
@@ -19,31 +19,31 @@ AKalo::AKalo()
 	BaseLookUpAtRate = 45.0f;
 
 	// Setting up initial cooldown for primary ability
-	primaryCooldown = 2.0f;
+	PrimaryCooldown = 2.0f;
+	
+	FName HeadSocket = TEXT("Head");
 
+	CapsuleComp = CreateDefaultSubobject<UCapsuleComponent>(TEXT("CapsuleComp"));
+	CapsuleComp->SetupAttachment(RootComponent);
+	
 
 }
 
 // Called when the game starts or when spawned
 void AKalo::BeginPlay()
 {
-	Super::BeginPlay();
-
-	FName HeadSocket = TEXT("Head");
-
-
-
+	Super::BeginPlay();	
 }
 
-void AKalo::MoveForward(float value)
+void AKalo::MoveForward(float Value)
 {
-	if (Controller && value != 0.0f)
+	if (Controller && Value != 0.0f)
 	{
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		AddMovementInput(Direction, value);
+		AddMovementInput(Direction, Value);
 	}
 }
 
@@ -59,14 +59,14 @@ void AKalo::MoveRight(float value)
 	}
 }
 
-void AKalo::TurnAtRate(float value)
+void AKalo::TurnAtRate(float Value)
 {
-	AddControllerYawInput(value * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+	AddControllerYawInput(Value * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
 
-void AKalo::LookUpAtRate(float value)
+void AKalo::LookUpAtRate(float Value)
 {
-	AddControllerPitchInput(value * BaseLookUpAtRate * GetWorld()->GetDeltaSeconds());
+	AddControllerPitchInput(Value * BaseLookUpAtRate * GetWorld()->GetDeltaSeconds());
 }
 
 // Called every frame
@@ -76,6 +76,15 @@ void AKalo::Tick(float DeltaTime)
 
 }
 
+void AKalo::PrimaryFire()
+{
+	//CapsuleComp->OnComponentBeginOverlap.AddDynamic(this, &)
+	
+}
+
+
+
+
 // Called to bind functionality to input
 void AKalo::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -84,6 +93,8 @@ void AKalo::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
+	PlayerInputComponent->BindAction("PrimaryFire", IE_Pressed, this, &AKalo::PrimaryFire);
+
 	PlayerInputComponent->BindAxis("MoveForward", this, &AKalo::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AKalo::MoveRight);
 
@@ -91,6 +102,7 @@ void AKalo::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAxis("Lookup", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("TurnRate", this, &AKalo::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AKalo::LookUpAtRate);
+
 
 }
 
